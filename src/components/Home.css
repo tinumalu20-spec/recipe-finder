@@ -1,0 +1,105 @@
+.home-container {
+  scroll-behavior: smooth;
+}
+
+/* Hero Section (Full Page) */
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background:#213941;
+  color:white;
+  padding: 60px 0;
+  
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 400px;
+ 
+  object-fit: cover;
+  
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.hero-section p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.7;
+  color:white;
+
+}
+
+.hero-section .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  
+  
+}
+
+/* Culinary Section (Full Page) */
+.culinary-section {
+  height: 100vh;
+  background:#213941;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 0;
+
+}
+.culinary-section h2 {
+  font-weight: 800;
+  color: white;
+}
+
+.culinary-text {
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.culinary-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Animation feel */
+h1, p {
+  transition: all 0.8s ease-in-out;
+}
+
+.recipe-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+} */
+.trending-btn {
+  background-color: #eca2a2;
+  color: #222;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 25px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  
+}
+
+.trending-btn:hover {
+  background-color: #ff9966;
+  transform: scale(1.05);
+}
+

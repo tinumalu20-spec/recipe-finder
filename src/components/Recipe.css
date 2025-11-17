@@ -1,0 +1,16 @@
+.back-to-home-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 999;
+  border-radius: 50px;
+  padding: 12px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.back-to-home-btn:hover {
+  background-color: #85e5f6;
+  color: white;
+  transform: scale(1.05);
+}

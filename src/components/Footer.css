@@ -1,0 +1,50 @@
+.footer {
+  background:white;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-content h4 {
+  font-size: 1.8rem;
+  color: #266526;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  color: #020202;
+  margin: 6px 0;
+}
+
+.footer-contact {
+  margin: 20px 0;
+  line-height: 1.8;
+}
+
+.footer-contact .icon {
+  color: #32cd32;
+  margin-right: 8px;
+}
+
+.footer-links {
+  margin-top: 15px;
+}
+
+.footer-links a {
+  color: #176b17;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #d06f0e;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 15px;
+}
