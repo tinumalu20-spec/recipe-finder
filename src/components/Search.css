@@ -1,0 +1,125 @@
+.search-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #213941;
+    /* ↑ Replace 'black-plate-bg.jpg' with your actual file name in /public/images */
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Dark overlay for contrast */
+  .search-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  /* Center content */
+  .search-section > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .search-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .search-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffe7c7;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .search-section p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #f8f8f8;
+  }
+  
+  .search-section input {
+    max-width: 400px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .search-section input::placeholder {
+    color: #ddd;
+  }
+  
+  .search-section input:focus {
+    border-color: #ffb347;
+    box-shadow: 0 0 8px rgba(255, 179, 71, 0.6);
+    outline: none;
+  }
+  
+  .search-btn {
+    background-color: #ffb347;
+    color: #000;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .search-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+  }
+  
+  .recipe-card {
+    width: 250px;
+    max-width: 250px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .recipe-img {
+    border-radius: 15px 15px 0 0;
+    height: 180px;
+    object-fit: cover;
+  }
+  .row {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+  
+  }
